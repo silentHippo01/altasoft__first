@@ -1,0 +1,17 @@
+.editor {
+    display: flex;
+    gap: 20px;
+}
+
+.fabricCanvas {
+    width: 500px;
+    height: 500px;
+    background-color: #ddd;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 15px;
+}

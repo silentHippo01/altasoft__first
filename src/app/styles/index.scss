@@ -1,0 +1,21 @@
+@import url("./reset.scss");
+@import url("./fonts.scss");
+@import url("./variables/globals.scss");
+
+@import "~rc-easyui/dist/themes/default/easyui.css";
+@import "~rc-easyui/dist/themes/icon.css";
+@import "~rc-easyui/dist/themes/react.css";
+
+body {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    padding: 15px 30px;
+}

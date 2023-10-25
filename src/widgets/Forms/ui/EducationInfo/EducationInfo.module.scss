@@ -1,0 +1,33 @@
+.form {
+    max-width: 500px;
+    width: 100%;
+}
+
+.radioGroup {
+    margin-bottom: 20px;
+}
+
+.refreshCourses {
+}
+
+.refreshCourse {
+    margin-bottom: 30px;
+}
+
+.refreshCourses__title {
+    margin-bottom: 15px;
+}
+
+.refreshCourses__dates {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.refreshCourses__date {
+    width: 40%;
+}
+
+.refreshCourses__addBtn {
+    margin-bottom: 20px;
+}

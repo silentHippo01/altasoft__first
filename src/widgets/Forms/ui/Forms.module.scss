@@ -1,0 +1,25 @@
+.FormPage {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    // height: 100vh;
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+}
+
+.input_form {
+    margin-bottom: 60px;
+}
+
+.form__menu {
+    margin-bottom: 40px;
+}
+
+.tabpanel {
+    display: flex;
+    justify-content: center;
+}
