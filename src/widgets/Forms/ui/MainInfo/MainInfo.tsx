@@ -94,6 +94,7 @@ export const MainInfo = (props: MainInfoProps) => {
                 helperText={errors?.email?.message}
             />
 
+
             <Button
                 type='submit'
                 variant='outlined'

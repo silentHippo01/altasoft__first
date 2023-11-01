@@ -1,6 +1,6 @@
 import { Box, Container, Tab, Tabs, TextField, Typography } from "@mui/material";
 import { useState } from "react";
-import { EInputs, MInputs, AntInput } from "widgets/Inputs";
+import { MInputs, PhoneInput, PhoneInput2 } from "widgets/Inputs";
 
 interface TabPanelProps {
     children?: React.ReactNode;
@@ -71,20 +71,17 @@ export const InputsPage = () => {
                 }}
             >
                 <Tab label="Material UI" {...a11yProps(0)} />
-                <Tab label="Easy UI" {...a11yProps(1)} />
-                <Tab label="Ant design" {...a11yProps(2)} />
+                <Tab label="Custom phone input" {...a11yProps(1)} />
             </Tabs>
 
             <TabPanel value={tabValue} index={0}>
                 <MInputs />
             </TabPanel>
-            <TabPanel value={tabValue} index={1}>
-                <EInputs />
-            </TabPanel>
-            <TabPanel value={tabValue} index={2}>
-                <AntInput />
-            </TabPanel>
 
+            <TabPanel value={tabValue} index={1}>
+                <PhoneInput />
+                <PhoneInput2 />
+            </TabPanel>
         </Box>
     );
 };
